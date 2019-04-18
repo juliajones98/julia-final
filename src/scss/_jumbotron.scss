@@ -1,4 +1,4 @@
-.jumbotron .banner {
+.jumbotron.banner {
   background: url(../img/queen-band-wallpaper-thin.jpg) no-repeat center;
   background-size: cover;
   color: white;
@@ -7,4 +7,8 @@
 
 .jumbotron {
   margin-bottom: 30px;
+}
+
+.text {
+  background-color: black;
 }

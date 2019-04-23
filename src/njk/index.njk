@@ -22,19 +22,20 @@
       
 
   <ul>
-  <div class="card-deck">
-   {% for member in data.members %}
-      <li><div class="card">
-      <img class="card-img-top imgfluid" src="../img/members/{{member.image}}" alt="{{member.name}}">
-      <div class="card-body">
-        <h5 class="card-title">{{member.name}}</h5>
-        <p class="card-text">{{member.instruments}}</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">Read more about <a href="{{member.url}}">{{member.name}}</a></small>
-      </div></li>
-   {% endfor %}
-   </div>
+    <div class="card-deck">
+    {% for member in data.members %}
+        <li><div class="card">
+        <img class="card-img-top img-fluid" src="../img/members/{{member.image}}" alt="{{member.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{member.name}}</h5>
+          <p class="card-text">{{member.instruments}}</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Read more about <a href="{{member.url}}">{{member.name}}</a></small>
+        </div></li>
+    {% endfor %}
+        </div>
+    </div>
   </ul>
 
       

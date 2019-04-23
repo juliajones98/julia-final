@@ -3,6 +3,7 @@
     {
       "slug": "freddie-mercury",
       "name": "Freddie Mercury",
+      "url": "freddie.html",
       "instruments": "Vocals, keyboards",
       "tenure": "(1970–1991; his death)",
       "birthplace": "Stone Town, Zanzibar",
@@ -14,6 +15,7 @@
     {
       "slug": "brian-may",
       "name": "Brian May",
+      "url": "brian.html",
       "instruments": "Guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "Hampton, England",
@@ -25,6 +27,7 @@
     {
       "slug": "roger-taylor",
       "name": "Roger Taylor",
+      "url": "roger.html",
       "instruments": "Drums, guitar, keyboards, vocals",
       "tenure": "(1970–present)",
       "birthplace": "King's Lynn, England",
@@ -36,6 +39,7 @@
     {
       "slug": "john-deacon",
       "name": "John Deacon",
+      "url": "john.html",
       "instruments": "Bass, guitar, keyboards",
       "tenure": "(1971–1997)",
       "birthplace": "Leicester, England",

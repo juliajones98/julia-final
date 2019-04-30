@@ -1,7 +1,15 @@
-.members {
-  margin-bottom: 60px;
+.img-fluid {
+  width: 100%;
+  height: auto;
 }
 
-.graf {
-  margin-bottom: 30px;
+.img-fluid.disc {
+  width: 50%;
+  height: auto;
+}
+
+.logo {
+  width: 15%;
+  height: 15%;
+  margin-top: 35px;
 }

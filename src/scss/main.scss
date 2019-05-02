@@ -24,8 +24,13 @@
 @import "footer";
 @import "photos";
 
-h2 {
+h2, p {
   margin-bottom: 30px;
+  font-family: 'Crimson Text', serif;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 .members {
@@ -34,4 +39,12 @@ h2 {
 
 .graf {
   margin-bottom: 30px;
+}
+
+h1, h5 {
+  font-family: 'Artifika', serif;
+}
+
+.card {
+  margin-bottom: 10px;
 }

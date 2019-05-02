@@ -8,9 +8,9 @@
   <div class="row">
     <div class="col-sm-4 left-rail">
       {% block info %}
-        <img class="img-fluid" src=../img/members/{{members.image}}>
-        <p> {{members.instruments}} </p>
-        <p> {{members.tenure}} </p>
+        <img class="img-fluid" src=../img/members/{{members.image}} style="padding-bottom:10px">
+        <p style="margin-bottom: 0"> Instruments: {{members.instruments}} </p>
+        <p> Tenure in band: {{members.tenure}} </p>
       {% endblock %}
     </div>
     <div class="col-sm-8">

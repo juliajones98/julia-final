@@ -28,7 +28,7 @@
 <h2>Members</h2>    
 <div class="members row section">
 {% for member in data.members %}
-  <div class="col-xs-12 col-sm-8 col-lg-3">
+  <div class="col-xs-12 col-sm-6 col-lg-3">
             <div class="card">
               <img class="card-img-top img-fluid" src="img/members/{{member.imagebw}}" alt="{{member.name}}">
               <div class="card-body">
@@ -46,12 +46,12 @@
     <h2>Albums</h2>    
     <div class="row">
       {% for album in data.discography %}
-      <div class="col-xs-12 col-sm-8 col-lg-3">
+      <div class="col-xs-12 col-sm-6 col-lg-3">
         <div class="list-unstyled">
         <div class="media">
         <div class="media-body">
           <img class="img-fluid disc" src=img/discs/{{album.image}}>
-          <p class="font-weight-bold">{{ album.title }} ({{ album.year }})</p>
+          <h6 class="font-weight-bold">{{ album.title }} ({{ album.year }})</h6>
         </div>
         </div>
         </div>

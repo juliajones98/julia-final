@@ -3,17 +3,23 @@
   background-size: cover;
   color: white;
   padding-top: 12rem;
+  border-radius: 0;
 }
 
 .jumbotron {
   margin-bottom: 30px;
+  vertical-align: middle;
 }
 
 .text {
-  background-color: black;
   font-family: 'Artifika', serif;
 }
 
 .text.hed {
   font-size: 70px;
+}
+
+.text.sub {
+  margin-bottom: 130px;
+  background-color: black;
 }

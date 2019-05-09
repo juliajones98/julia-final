@@ -6,14 +6,17 @@
 
 <article class="container">
   <div class="row">
-    <div class="col-sm-4 left-rail">
+    <div class="col-xs-12 col-md-4 left-rail">
       {% block info %}
         <img class="img-fluid" src=../img/members/{{members.image}} style="padding-bottom:10px">
+        <h4 class= "font-weight-bold" style="margin-bottom: 0"> Quick facts </h4>
         <p style="margin-bottom: 0"> Instruments: {{members.instruments}} </p>
-        <p> Tenure in band: {{members.tenure}} </p>
+        <p style="margin-bottom: 0"> Tenure in band: {{members.tenure}} </p>
+        <p style="margin-bottom: 0"> Birthplace: {{members.birthplace}} </p>
+        <p style="margin-bottom: 40px"> Birthdate: {{members.birthdate}} </p>
       {% endblock %}
     </div>
-    <div class="col-sm-8">
+    <div class="col-xs-12 col-md-8">
       <h1>{{ members.name }}</h1>
       {% block story %}
         {{members.text | safe}}
